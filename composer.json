@@ -1,0 +1,19 @@
+{
+    "name": "it-for-free/wp-hierarchical-taxonomy-items-and-post-urls",
+    "type": "wordpress-plugin",
+    "description": "wordpress hierarchical taxonomy nested items and post urls Иерархические ссылки для категорий таксономии и записей в них",
+    "keywords": ["wordpress", "wp", "wordpress", "wp", "custom taxonomy", "custom post type", 
+        "hierarhical  nested urls"],
+    "homepage": "http://fkn.ktu10.com/?q=node/4191",
+     
+    "require": {
+        "composer/installers": "~1.0",
+        "it-for-free/wp-addons": "dev-master" 
+    },
+    "repositories": [
+        {
+           "type": "vcs",
+           "url": "https://github.com/it-for-free/wp-addons"
+        }
+    ] 
+}
