@@ -8,7 +8,7 @@
      
     "require": {
         "composer/installers": "~1.0",
-        "it-for-free/wp-addons": "dev-master" 
+        "it-for-free/wp-addons": "v0.0.2" 
     },
     "repositories": [
         {
