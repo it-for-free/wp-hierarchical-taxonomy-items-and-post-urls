@@ -1,6 +1,6 @@
 <?php
 /*
-  Plugin Name: [WGT] Hierarchical Taxonomy Items And Post Urls
+  Plugin Name: [WGT] Hierarchical Taxonomy Items And Post Urls // Иерархические ссылки категорий таксономии и записей
   Plugin URI: https://github.com/it-for-free/wp-hierarchical-taxonomy-items-and-post-urls
   Description: Иерархические URL для категорий таксономии и записей в них // wordpress hierarchical urls for taxonomy nested items and posts in them
   Version: 0.0.1
