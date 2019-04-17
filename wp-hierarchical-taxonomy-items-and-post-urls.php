@@ -8,7 +8,7 @@
   Author URI: https://github.com/it-for-free/wp-hierarchical-taxonomy-items-and-post-urls
  */
 
-use ItForFree\WpAddons\Modules\HierarhicalUrls\HierarhicalUrls;
+use ItForFree\WpHiUrls\HierarhicalUrls;
 
 use ItForFree\WpAddons\Core\Admin\Settings\SettingsPage\SettingsPage;
 use ItForFree\WpAddons\Core\Admin\Settings\SettingsPage\Section\Field\Html\TaxonomiesCheckboxList;
