@@ -31,6 +31,6 @@ $Page->createAndAddSettingsEntity()
 
 $Page->getSectionById('main')->addSectionField(
    new TaxonomiesCheckboxList($Page->getSectionById('main'), 'checked_taxonomies',
-        'Выбирите типы такосономий, дя которых следует активировать плагин')
+        'Выбирите типы таксономий, для которых следует активировать плагин')
 );
 
