@@ -1,5 +1,5 @@
 # wp-hierarchical-taxonomy-items-and-post-urls
-wordpress hierarchical taxonomy nested items and post urls
+[wordpress hierarchical taxonomy nested items and post urls]
 
 
 ## Установка
@@ -16,7 +16,7 @@ wordpress hierarchical taxonomy nested items and post urls
 * слаг для *таксономии* `uslugicat` как `uslugi`  (необходимо, что было общий базовый url).
 * **Важно:** В данный момент плагин работает успешно, тоьлко если работа  тип контента с тем же самым имененем,
     что и слага таксономии был зарегистрирован раньше, чем  эта таксономия  
-    (например. может потребовать [правка в модуле CPT UI](http://fkn.ktu10.com/?q=node/10764) если вы используете его).
+    (например. может потребовать [правка в модуле CPT UI](http://fkn.ktu10.com/?q=node/10764), если вы используете его).
 
 
 # Описание классов
