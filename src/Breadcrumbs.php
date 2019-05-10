@@ -20,7 +20,7 @@ class Breadcrumbs
     public static function getForTaxonomyItem($term = null)
     {
         if (empty($term)) {    
-            $term = get_term_by( 'slug', get_query_var( 'term' ), get_query_var( 'taxonomy' ) );
+            $term = TaxonomyCategory::getCurrentTerm();
         }
          
         $Bcmrs = new IffBreadcrumbs();
