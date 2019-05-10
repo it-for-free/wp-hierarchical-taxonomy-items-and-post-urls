@@ -27,6 +27,39 @@
 типа контента и элементов таксономии. Его  функционал запускается модулем автоматически.
 * `\ItForFree\WpHiUrls\Breadcrumbs` для хлебных крошек для этого формата. Этот код можно вручную использоваться в ваших шаблонах.
 
+
+## Хлебные крошки
+
+Пример исползования:
+
+```php
+<?php
+    use ItForFree\WpHiUrls\Breadcrumbs;
+    
+ 
+    if (is_tax()) {
+        $Brkms = Breadcrumbs::getForTaxonomyItem();
+    } else {
+        $Brkms = Breadcrumbs::getForPost(get_post(), 'productscat');
+    }
+    
+    $Brkms->addToStart(['/' => 'Главная', '/products' => 'Продукция']);
+    
+    $Brkms->printHtml(
+        '<ul class="breadcrumb breadcrumb__t">',
+        '</ul>',
+        '<li>',
+        '</li>',
+        '<li class="divider"></li>',
+        true,
+        '<li class="active">',
+        '</li>'
+    );
+?>
+```
+
+
+
 ## @todo
 
 * Необходимо добавить автоматическое обновление маршрутов при сохрании данных, включении выключении и удалении модуля.
